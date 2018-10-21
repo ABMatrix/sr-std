@@ -18,12 +18,12 @@
 #[doc(hidden)]
 pub extern crate alloc;
 
+/*
 extern "C" {
 	fn ext_malloc(size: usize) -> *mut u8;
 	fn ext_free(ptr: *mut u8);
 }
 
-/*
 /// Wasm allocator
 pub struct WasmAllocator;
 

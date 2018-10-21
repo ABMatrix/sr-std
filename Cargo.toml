@@ -8,7 +8,7 @@ build = "build.rs"
 rustc_version = "0.2"
 
 [features]
-default = ["std"]
+default = []
 std = []
 nightly = []
 strict = []
